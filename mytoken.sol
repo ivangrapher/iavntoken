@@ -6,8 +6,8 @@ module.exports = function(deployer, network, accounts) {
     const closingTime = 1561939200; // 1 Июля 2019
     const rate = new web3.BigNumber(1); // 1 токен за 1 эфир
     const wallet = '0x281055afc982d96fab65b3a49cac8b878184cb16'; // Кошелек-бенефициар
-    const cap = 200 * 1000000; // Хардкеп
-    const goal = 100 * 1000000; // Софткеп
+    const cap = 200 * 1000000; 
+    const goal = 100 * 1000000;
 
     return deployer
         .then(() => {
